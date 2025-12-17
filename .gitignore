@@ -1,6 +1,8 @@
-# Python
+# ===== Python =====
 __pycache__/
 *.py[cod]
+
+# ===== Environnements virtuels =====
 .venv/
 venv/
 ENV/
@@ -8,72 +10,20 @@ ENV/
 dist/
 build/
 
-# OS / editors
+# ===== OS / Editors =====
 .DS_Store
 .vscode/
 .idea/
 
-cat > .gitignore << 'EOF'
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-ENV/
-*.egg-info/
-dist/
-build/
-
-# OS / editors
-.DS_Store
-.vscode/
-.idea/
-
-# Certs & secrets (à adapter selon ton choix)
+# ===== Certificats & secrets =====
 certs/*.key
 certs/*.pem
 certs/*.p12
 *.key
 *.env
+v1_not_secure/secret.txt
+v1_not_secure/receive_secret.txt
 
-# Captures / rapports générés (si tu veux les garder hors git)
-captures/
-rapport/*.pdf
-EOF
-# Certs & secrets (à adapter selon ton choix)
-certs/*.key
-certs/*.pem
-certs/*.p12
-*.key
-*.env
-cat > .gitignore << 'EOF'
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-ENV/
-*.egg-info/
-dist/
-build/
-
-# OS / editors
-.DS_Store
-.vscode/
-.idea/
-
-# Certs & secrets (à adapter selon ton choix)
-certs/*.key
-certs/*.pem
-certs/*.p12
-*.key
-*.env
-
-# Captures / rapports générés (si tu veux les garder hors git)
-captures/
-rapport/*.pdf
-EOF
-
-# Captures / rapports générés (si tu veux les garder hors git)
+# ===== Captures / rapports générés =====
 captures/
 rapport/*.pdf
