@@ -3,7 +3,7 @@
 Structure:
 - `v1_non_securise/` : version sans TLS
 - `v2_tls/` : version avec TLS
-- `certs/` : certificats (attention aux clés privées)
+- `certs/` : certificats 
 - `captures/` : captures / logs
 - `rapport/` : rendu / rapport
 
